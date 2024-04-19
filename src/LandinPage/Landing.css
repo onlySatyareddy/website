@@ -1,0 +1,51 @@
+
+.Landing{
+background: white url('../assets/img/bg-image.jpg') scroll center;
+background-size: cover;
+height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: large;
+
+}
+
+.wapper{
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    height: 100%;
+}
+
+
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  .display-3 {
+    animation: slideIn 2s forwards; 
+  }
+  
+  .display-text {
+    animation: slideIn 3s forwards; 
+    font-weight: bold;
+    margin-top: 50px;
+    color:#bce8e8;
+  }
+
+
+  .display-3{
+
+    background: linear-gradient(45deg,black, lightcoral);
+    font-weight: bold;
+    color: #bce8e8;
+  }
+.p{
+  padding: 10px;
+}
